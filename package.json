@@ -1,6 +1,7 @@
 {
   "name": "euphoria",
-  "displayName": "euphoria",
+  "displayName": "Euphoria",
+   "publisher": "swarajladke",
   "description": " A dynamic glowing theme engine that switches colors based on code state.",
   "version": "0.0.1",
   "engines": {
