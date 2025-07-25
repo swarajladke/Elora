@@ -7,6 +7,11 @@
   "engines": {
     "vscode": "^1.102.0"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/swarajladke/Euphoria.git"
+},
+
   "categories": [
      "Themes",
     "Other"
