@@ -1,0 +1,80 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000010",
+    "editor.foreground": "#00FFFF",
+    "editorCursor.foreground": "#FF0040",
+    "editor.lineHighlightBackground": "#FF004020",
+    "editor.lineHighlightBorder": "#FF0040AA",
+    "editor.selectionBackground": "#00FFFF30",
+    "editor.selectionHighlightBorder": "#00FFFF80",
+    "editorBracketMatch.border": "#00FFFF",
+    "editorBracketMatch.background": "#00FFFF20",
+    "editorError.border": "#FF004080",
+    "editorWarning.border": "#FFA50080",
+    "editorInfo.border": "#00FFFF80",
+    "editorIndentGuide.activeBackground1": "#00FFFF60",
+    "editorLineNumber.foreground": "#FF0040",
+    "sideBar.background": "#00000A",
+    "sideBar.foreground": "#00FFFF",
+    "statusBar.background": "#000010",
+    "statusBar.foreground": "#00FFFF",
+    "tab.activeBackground": "#0F0015",
+    "tab.inactiveBackground": "#000000",
+    "activityBar.background": "#000010",
+    "activityBar.foreground": "#00FFFF",
+    "activityBarBadge.background": "#FF0040",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "panel.border": "#FF0040",
+    "editorGroup.border": "#00FFFF",
+    "titleBar.activeBackground": "#000010",
+    "titleBar.activeForeground": "#FF0040"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": {
+        "foreground": "#FF0040"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#00FFFF"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#FF00FF"
+      }
+    },
+    {
+      "scope": ["variable", "variable.parameter"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#555555",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["punctuation", "meta.brace"],
+      "settings": {
+        "foreground": "#00FFFF"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "meta.tag", "support.class.component"],
+      "settings": {
+        "foreground": "#FF0040"
+      }
+    }
+  ]
+}

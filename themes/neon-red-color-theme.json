@@ -1,0 +1,81 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Red",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFDEE9",
+    "editorCursor.foreground": "#FF0066",
+    "editor.lineHighlightBackground": "#FF006620",
+    "editorLineNumber.foreground": "#FF80B5AA",
+    "editorIndentGuide.activeBackground1": "#FF005566",
+    "editor.selectionBackground": "#FF337733",
+    "editorBracketMatch.border": "#FF005588",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#FF80B5",
+    "activityBar.border": "#FF0066",
+
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#FF3377",
+    "tab.activeBorderTop": "#FF0055",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#D02050",
+    "tab.border": "#FF006644",
+
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#FF80B5",
+    "sideBar.border": "#FF005544",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FF0066",
+    "statusBar.border": "#FF80B544",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#FF80B5",
+    "titleBar.border": "#FF006633",
+
+    "panel.border": "#FF005522",
+    "badge.background": "#FF0055",
+    "badge.foreground": "#000000",
+
+    "list.activeSelectionBackground": "#FF80B522",
+    "list.activeSelectionForeground": "#FFDEE9",
+    "list.hoverBackground": "#FF337711"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#FF80B5",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage"],
+      "settings": {
+        "foreground": "#FF0066",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#FFDEE9"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#E0E0E0"
+      }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#FF3377",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

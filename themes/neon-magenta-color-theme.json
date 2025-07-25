@@ -1,0 +1,87 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Magenta",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#ff00ff",
+    "editorCursor.foreground": "#ff00ff",
+    "editor.lineHighlightBackground": "#ff00ff10",
+    "editorLineNumber.foreground": "#ff00ff88",
+    "editorIndentGuide.activeBackground1": "#ff00ff33",
+    "editor.selectionBackground": "#ff00ff33",
+    "editorBracketMatch.border": "#ff00ff",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#ff00ff",
+    "activityBar.border": "#ff00ff",
+
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#ff00ff",
+    "tab.activeBorderTop": "#ff00ff",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#ff00ff88",
+    "tab.border": "#ff00ff33",
+
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#ff00ff",
+    "sideBar.border": "#ff00ff33",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ff00ff",
+    "statusBar.border": "#ff00ff44",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#ff00ff",
+    "titleBar.border": "#ff00ff33",
+
+    "panel.border": "#ff00ff22",
+    "badge.background": "#ff00ff",
+    "badge.foreground": "#000000",
+
+    "list.activeSelectionBackground": "#ff00ff22",
+    "list.activeSelectionForeground": "#ff00ff",
+    "list.hoverBackground": "#ff00ff11"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#FF77FF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#FF00FF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#FF66CC"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#E0E0E0"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#FF99FF"
+      }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": {
+        "foreground": "#FF33CC",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}

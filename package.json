@@ -1,0 +1,125 @@
+{
+  "name": "euphoria",
+  "displayName": "euphoria",
+  "description": " A dynamic glowing theme engine that switches colors based on code state.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+     "Themes",
+    "Other"
+  ],
+  "activationEvents": [
+     "*"
+  ],
+  "main": "./dist/extension.js",
+
+    "contributes": {
+  "themes": [
+    {
+      "label": "Euphoria",
+      "uiTheme": "vs-dark",
+      "path": "./themes/euphoria-color-theme.json"
+    },
+    {
+      "label": "Euphoria Aqua",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-aqua-color-theme.json"
+    },
+    {
+      "label": "Euphoria Blue",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-blue-color-theme.json"
+    },
+    {
+      "label": "Euphoria Cyan",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-cyan-color-theme.json"
+    },
+    {
+      "label": "Euphoria Green",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-green-color-theme.json"
+    },
+    {
+      "label": "Euphoria Lime",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-lime-color-theme.json"
+    },
+    {
+      "label": "Euphoria Magenta",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-magenta-color-theme.json"
+    },
+    {
+      "label": "Euphoria Orange",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-orange-color-theme.json"
+    },
+    {
+      "label": "Euphoria Pink",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-pink-color-theme.json"
+    },
+    {
+      "label": "Euphoria Purple",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-purple-color-theme.json"
+    },
+    {
+      "label": "Euphoria Red",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-red-color-theme.json"
+    },
+    {
+      "label": "Euphoria Yellow",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-yellow-color-theme.json"
+    },
+    {
+      "label": "Euphoria Rainbow",
+      "uiTheme": "vs-dark",
+      "path": "./themes/neon-rainbow-color-theme.json"
+    }
+  ], "commands": [
+      {
+        "command": "euphoria.showGlowPanel",
+        "title": "Show Glow Panel",
+        "category": "Euphoria"
+      }
+  ]
+},
+"scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "esbuild": "^0.25.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  },
+    "files": [
+      "themes",
+      "dist"
+    ]
+  }
+

@@ -1,0 +1,32 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Yellow",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#fef08a",
+    "editor.selectionBackground": "#facc1533",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#facc15",
+    "activityBar.border": "#facc15",
+    "tab.activeBorderTop": "#fde047",
+    "tab.activeBackground": "#0d0d0d",
+    "tab.inactiveBackground": "#000000",
+    "tab.activeForeground": "#fef08a",
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#fef08a",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#fde047",
+    "statusBar.border": "#facc15",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#fef08a"
+  },
+  "tokenColors": [
+    { "scope": "keyword", "settings": { "foreground": "#facc15", "fontStyle": "bold" }},
+    { "scope": "variable", "settings": { "foreground": "#fde047" }},
+    { "scope": "string", "settings": { "foreground": "#fef08a" }},
+    { "scope": "comment", "settings": { "foreground": "#eab308", "fontStyle": "italic" }},
+    { "scope": "entity.name.function", "settings": { "foreground": "#fcd34d", "fontStyle": "underline" }},
+    { "scope": "constant", "settings": { "foreground": "#fde68a" }}
+  ]
+}

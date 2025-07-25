@@ -1,0 +1,67 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Green",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#00ff99",
+    "editorCursor.foreground": "#00ff99",
+    "editor.lineHighlightBackground": "#00ff9910",
+    "editorLineNumber.foreground": "#00ff9988",
+    "editorIndentGuide.activeBackground1": "#00ff9933",
+    "editor.selectionBackground": "#00ff9933",
+    "editorBracketMatch.border": "#00ff99",
+    
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#00ff99",
+    "activityBar.border": "#00ff99",
+    
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#00ff99",
+    "tab.activeBorderTop": "#00ff99",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#00ff9988",
+    "tab.border": "#00ff9933",
+    
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#00ff99",
+    "sideBar.border": "#00ff9933",
+    
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#00ff99",
+    "statusBar.border": "#00ff9944",
+    
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#00ff99",
+    "titleBar.border": "#00ff9933",
+    
+    "panel.border": "#00ff9922",
+    "badge.background": "#00ff99",
+    "badge.foreground": "#000000",
+    
+    "list.activeSelectionBackground": "#00ff9922",
+    "list.activeSelectionForeground": "#00ff99",
+    "list.hoverBackground": "#00ff9911"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#34d399",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#6ee7b7"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#a7f3d0"
+      }
+    }
+  ]
+}

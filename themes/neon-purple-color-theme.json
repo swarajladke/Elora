@@ -1,0 +1,67 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Purple",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#c084fc",
+    "editorCursor.foreground": "#c084fc",
+    "editor.lineHighlightBackground": "#c084fc10",
+    "editorLineNumber.foreground": "#c084fc88",
+    "editorIndentGuide.activeBackground1": "#c084fc33",
+    "editor.selectionBackground": "#c084fc33",
+    "editorBracketMatch.border": "#c084fc",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#c084fc",
+    "activityBar.border": "#c084fc",
+
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#c084fc",
+    "tab.activeBorderTop": "#c084fc",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#c084fc88",
+    "tab.border": "#c084fc33",
+
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#c084fc",
+    "sideBar.border": "#c084fc33",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#c084fc",
+    "statusBar.border": "#c084fc44",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#c084fc",
+    "titleBar.border": "#c084fc33",
+
+    "panel.border": "#c084fc22",
+    "badge.background": "#c084fc",
+    "badge.foreground": "#000000",
+
+    "list.activeSelectionBackground": "#c084fc22",
+    "list.activeSelectionForeground": "#c084fc",
+    "list.hoverBackground": "#c084fc11"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#c084fc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#d8b4fe"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#e9d5ff"
+      }
+    }
+  ]
+}

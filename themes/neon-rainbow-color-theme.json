@@ -1,0 +1,86 @@
+
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Rainbow",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#f8f8f2",
+    "editorCursor.foreground": "#ff79c6",
+    "editor.lineHighlightBackground": "#ffffff10",
+    "editorLineNumber.foreground": "#ff79c688",
+    "editorIndentGuide.activeBackground1": "#8be9fd33",
+    "editor.selectionBackground": "#50fa7b33",
+    "editorBracketMatch.border": "#ffb86c",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#bd93f9",
+    "activityBar.border": "#ff79c6",
+
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#f1fa8c",
+    "tab.activeBorderTop": "#ff5555",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#6272a4",
+    "tab.border": "#ff79c633",
+
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#8be9fd",
+    "sideBar.border": "#50fa7b33",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#50fa7b",
+    "statusBar.border": "#ff79c644",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#f8f8f2",
+    "titleBar.border": "#bd93f933",
+
+    "panel.border": "#ff79c622",
+    "badge.background": "#ff79c6",
+    "badge.foreground": "#000000",
+
+    "list.activeSelectionBackground": "#bd93f922",
+    "list.activeSelectionForeground": "#f1fa8c",
+    "list.hoverBackground": "#bd93f911"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#ff5555",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#f1fa8c"
+      }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#bd93f9"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#8be9fd"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Orange",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#ffa500",
+    "editorCursor.foreground": "#ffa500",
+    "editor.lineHighlightBackground": "#ffa50010",
+    "editorLineNumber.foreground": "#ffa50088",
+    "editorIndentGuide.activeBackground1": "#ffa50033",
+    "editor.selectionBackground": "#ffa50033",
+    "editorBracketMatch.border": "#ffa500",
+
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#ffa500",
+    "activityBar.border": "#ffa500",
+
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#ffa500",
+    "tab.activeBorderTop": "#ffa500",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#ffa50088",
+    "tab.border": "#ffa50033",
+
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#ffa500",
+    "sideBar.border": "#ffa50033",
+
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ffa500",
+    "statusBar.border": "#ffa50044",
+
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#ffa500",
+    "titleBar.border": "#ffa50033",
+
+    "panel.border": "#ffa50022",
+    "badge.background": "#ffa500",
+    "badge.foreground": "#000000",
+
+    "list.activeSelectionBackground": "#ffa50022",
+    "list.activeSelectionForeground": "#ffa500",
+    "list.hoverBackground": "#ffa50011"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#fb923c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#fdba74"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#ffedd5"
+      }
+    }
+  ]
+}

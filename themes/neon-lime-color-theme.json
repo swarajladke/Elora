@@ -1,0 +1,67 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Euphoria Lime",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#ccff00",
+    "editorCursor.foreground": "#ccff00",
+    "editor.lineHighlightBackground": "#ccff0010",
+    "editorLineNumber.foreground": "#ccff0088",
+    "editorIndentGuide.activeBackground1": "#ccff0033",
+    "editor.selectionBackground": "#ccff0033",
+    "editorBracketMatch.border": "#ccff00",
+    
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#ccff00",
+    "activityBar.border": "#ccff00",
+    
+    "tab.activeBackground": "#0d0d0d",
+    "tab.activeForeground": "#ccff00",
+    "tab.activeBorderTop": "#ccff00",
+    "tab.inactiveBackground": "#000000",
+    "tab.inactiveForeground": "#ccff0088",
+    "tab.border": "#ccff0033",
+    
+    "sideBar.background": "#0a0a0a",
+    "sideBar.foreground": "#ccff00",
+    "sideBar.border": "#ccff0033",
+    
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ccff00",
+    "statusBar.border": "#ccff0044",
+    
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#ccff00",
+    "titleBar.border": "#ccff0033",
+    
+    "panel.border": "#ccff0022",
+    "badge.background": "#ccff00",
+    "badge.foreground": "#000000",
+    
+    "list.activeSelectionBackground": "#ccff0022",
+    "list.activeSelectionForeground": "#ccff00",
+    "list.hoverBackground": "#ccff0011"
+  },
+  "tokenColors": [
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#bef264",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#d9f99d"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#ecfccb"
+      }
+    }
+  ]
+}
