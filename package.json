@@ -1,15 +1,16 @@
 {
-  "name": "euphoria-themes",
-  "displayName": "Euphoria-Themes",
+  "name": "aurora",
+  "displayName": "Aurora",
    "publisher": "swarajladke",
   "description": " A dynamic glowing theme engine that switches colors based on code state.",
   "version": "0.0.1",
+   "icon": "icon3.png",
   "engines": {
     "vscode": "^1.102.0"
   },
   "repository": {
   "type": "git",
-  "url": "https://github.com/swarajladke/Euphoria.git"
+  "url": "https://github.com/swarajladke/Aurora.git"
 },
 
   "categories": [
@@ -24,75 +25,75 @@
     "contributes": {
   "themes": [
     {
-      "label": "Euphoria",
+      "label": "Aurora",
       "uiTheme": "vs-dark",
       "path": "./themes/euphoria-color-theme.json"
     },
     {
-      "label": "Euphoria Aqua",
+      "label": "Aurora Aqua",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-aqua-color-theme.json"
     },
     {
-      "label": "Euphoria Blue",
+      "label": "Aurora Blue",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-blue-color-theme.json"
     },
     {
-      "label": "Euphoria Cyan",
+      "label": "Aurora Cyan",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-cyan-color-theme.json"
     },
     {
-      "label": "Euphoria Green",
+      "label": "Aurora Green",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-green-color-theme.json"
     },
     {
-      "label": "Euphoria Lime",
+      "label": "Aurora Lime",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-lime-color-theme.json"
     },
     {
-      "label": "Euphoria Magenta",
+      "label": "Aurora Magenta",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-magenta-color-theme.json"
     },
     {
-      "label": "Euphoria Orange",
+      "label": "Aurora Orange",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-orange-color-theme.json"
     },
     {
-      "label": "Euphoria Pink",
+      "label": "Aurora Pink",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-pink-color-theme.json"
     },
     {
-      "label": "Euphoria Purple",
+      "label": "Aurora Purple",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-purple-color-theme.json"
     },
     {
-      "label": "Euphoria Red",
+      "label": "Aurora Red",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-red-color-theme.json"
     },
     {
-      "label": "Euphoria Yellow",
+      "label": "Aurora Yellow",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-yellow-color-theme.json"
     },
     {
-      "label": "Euphoria Rainbow",
+      "label": "Aurora Rainbow",
       "uiTheme": "vs-dark",
       "path": "./themes/neon-rainbow-color-theme.json"
     }
   ], "commands": [
       {
-        "command": "euphoria.showGlowPanel",
+        "command": "Aurora.showGlowPanel",
         "title": "Show Glow Panel",
-        "category": "Euphoria"
+        "category": "Aurora"
       }
   ]
 },

@@ -1,29 +1,29 @@
 import * as vscode from 'vscode';
 
 export function glowPanelActivate(context: vscode.ExtensionContext) {
-  const disposable = vscode.commands.registerCommand('euphoria.showGlowPanel', () => {
+  const disposable = vscode.commands.registerCommand('Aurora.showGlowPanel', () => {
     const theme = vscode.workspace.getConfiguration('workbench').get('colorTheme') as string;
 
     const themeColorMap: Record<string, string> = {
-      'Euphoria Pink': '#ff69b4',
-      'Euphoria Blue': '#00aaff',
-      'Euphoria Green': '#00ff99',
-      'Euphoria Red': '#ff4444',
+      'Aurora Pink': '#ff69b4',
+      'Aurora Blue': '#00aaff',
+      'Aurora Green': '#00ff99',
+      'Aurora Red': '#ff4444',
       'Euphoria Purple': '#aa00ff',
-      'Euphoria Aqua': '#00ffff',
-      'Euphoria Orange': '#ff8800',
-      'Euphoria Yellow': '#ffff33',
-      'Euphoria Lime': '#ccff00',
-      'Euphoria Magenta': '#ff00ff',
-      'Euphoria Cyan': '#00e5ff',
-      'Euphoria Rainbow': '#ffffff'
+      'Aurora Aqua': '#00ffff',
+      'Aurora Orange': '#ff8800',
+      'Aurora Yellow': '#ffff33',
+      'Aurora Lime': '#ccff00',
+      'Aurora Magenta': '#ff00ff',
+      'Aurora Cyan': '#00e5ff',
+      'Aurora Rainbow': '#ffffff'
     };
 
     const glowColor = themeColorMap[theme] || '#ffffff'; // Now glowColor is used here
 
     const panel = vscode.window.createWebviewPanel(
-      'euphoriaGlow',
-      'Euphoria Glow',
+      'AuroraGlow',
+      'Aurora Glow',
       vscode.ViewColumn.One,
       { enableScripts: true }
     );
@@ -107,7 +107,7 @@ function getWebviewContent(glowColor: string): string {
   <body>
     <div class="border-glow">
       <div class="content">
-               𝑬𝒖𝒑𝒉𝒐𝒓𝒊𝒂 <br>
+               𝑨𝒖𝒓𝒐𝒓𝒂 <br>
               𝑮𝒍𝒐𝒘𝒊𝒏𝒈 𝒘𝒊𝒕𝒉 𝒔𝒕𝒚𝒍𝒆 !<br>     
                    𝑩𝒀 - 𝑺𝒘𝒂𝒓𝒂𝒋 𝑳𝒂𝒅𝒌𝒆
       </div>
