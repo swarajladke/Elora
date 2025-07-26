@@ -1,29 +1,29 @@
 import * as vscode from 'vscode';
 
 export function glowPanelActivate(context: vscode.ExtensionContext) {
-  const disposable = vscode.commands.registerCommand('Aurora.showGlowPanel', () => {
+  const disposable = vscode.commands.registerCommand('Elora.showGlowPanel', () => {
     const theme = vscode.workspace.getConfiguration('workbench').get('colorTheme') as string;
 
     const themeColorMap: Record<string, string> = {
-      'Aurora Pink': '#ff69b4',
-      'Aurora Blue': '#00aaff',
-      'Aurora Green': '#00ff99',
-      'Aurora Red': '#ff4444',
-      'Euphoria Purple': '#aa00ff',
-      'Aurora Aqua': '#00ffff',
-      'Aurora Orange': '#ff8800',
-      'Aurora Yellow': '#ffff33',
-      'Aurora Lime': '#ccff00',
-      'Aurora Magenta': '#ff00ff',
-      'Aurora Cyan': '#00e5ff',
-      'Aurora Rainbow': '#ffffff'
+      'Elora Pink': '#ff69b4',
+      'Elora Blue': '#00aaff',
+      'Elora Green': '#00ff99',
+      'Elora Red': '#ff4444',
+      'Elora Purple': '#aa00ff',
+      'Elora Aqua': '#00ffff',
+      'Elora Orange': '#ff8800',
+      'Elora Yellow': '#ffff33',
+      'Elora Lime': '#ccff00',
+      'Elora Magenta': '#ff00ff',
+      'Elora Cyan': '#00e5ff',
+      'Elora Rainbow': '#ffffff'
     };
 
     const glowColor = themeColorMap[theme] || '#ffffff'; // Now glowColor is used here
 
     const panel = vscode.window.createWebviewPanel(
-      'AuroraGlow',
-      'Aurora Glow',
+      'EloraGlow',
+      'Elora Glow',
       vscode.ViewColumn.One,
       { enableScripts: true }
     );
@@ -107,7 +107,7 @@ function getWebviewContent(glowColor: string): string {
   <body>
     <div class="border-glow">
       <div class="content">
-               𝑨𝒖𝒓𝒐𝒓𝒂 <br>
+               𝑬𝒍𝒐𝒓𝒂 <br>
               𝑮𝒍𝒐𝒘𝒊𝒏𝒈 𝒘𝒊𝒕𝒉 𝒔𝒕𝒚𝒍𝒆 !<br>     
                    𝑩𝒀 - 𝑺𝒘𝒂𝒓𝒂𝒋 𝑳𝒂𝒅𝒌𝒆
       </div>
