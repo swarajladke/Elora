@@ -1,7 +1,7 @@
 
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Euphoria Rainbow",
+  "name": "Elora Rainbow",
   "type": "dark",
   "colors": {
     "editor.background": "#000000",

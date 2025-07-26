@@ -1,6 +1,6 @@
-# 🌈 Euphoria - Dynamic Glow Theme Engine for VS Code
+# 🌈 Elora - Dynamic Glow Theme Engine for VS Code
 
-**Euphoria** is a next-gen **dynamic glowing theme engine** for Visual Studio Code. It brings your editor to life with **real-time glowing animations** that respond to your current theme color — adding an aesthetic and immersive coding experience.
+**Elora** is a next-gen **dynamic glowing theme engine** for Visual Studio Code. It brings your editor to life with **real-time glowing animations** that respond to your current theme color — adding an aesthetic and immersive coding experience.
 
 > 💡 Created with ❤️ by [Swaraj Ladke](https://github.com/swarajladke)
 
@@ -8,10 +8,10 @@
 
 ## ✨ Features
 
-- 🎨 Glowing UI that adapts to your current Euphoria theme color
+- 🎨 Glowing UI that adapts to your current Elora theme color
 - 💫 Animated glowing borders inside a webview (simulating file explorer glow)
 - 🎯 Smooth animations with customizable colors
-- ⚙️ Designed to match your theme dynamically (e.g. Pink glow for Euphoria Pink)
+- ⚙️ Designed to match your theme dynamically (e.g. Pink glow for Elora Pink)
 
 ---
 
@@ -24,27 +24,27 @@
 
 ## 🛠️ Usage
 
-1. Open Command Palette → `Euphoria: Show Glow Panel`
-2. Enjoy a glowing animated panel themed to match your selected Euphoria color theme
+1. Open Command Palette → `Elora: Show Glow Panel`
+2. Enjoy a glowing animated panel themed to match your selected Elora color theme
 3. Works great with your existing VS Code setup
 
 ---
 
 ## 🎨 Supported Themes & Glow Colors
 
-| Theme Name         | Glow Color  |
-|--------------------|-------------|
-| Euphoria Pink      | `#ff69b4`   |
-| Euphoria Blue      | `#00aaff`   |
-| Euphoria Green     | `#00ff99`   |
-| Euphoria Red       | `#ff4444`   |
-| Euphoria Aqua      | `#00ffff`   |
-| Euphoria Orange    | `#ff8800`   |
-| Euphoria Yellow    | `#ffff33`   |
-| Euphoria Lime      | `#ccff00`   |
-| Euphoria Magenta   | `#ff00ff`   |
-| Euphoria Cyan      | `#00e5ff`   |
-| Euphoria Rainbow   | `#ffffff` *(default / animated coming soon)*
+| Theme Name      | Glow Color  |
+|-----------------|-------------|
+| Elora Pink      | `#ff69b4`   |
+| Elora Blue      | `#00aaff`   |
+| Elora Green     | `#00ff99`   |
+| Elora Red       | `#ff4444`   |
+| Elora Aqua      | `#00ffff`   |
+| Elora Orange    | `#ff8800`   |
+| Elora Yellow    | `#ffff33`   |
+| Elora Lime      | `#ccff00`   |
+| Elora Magenta   | `#ff00ff`   |
+| Elora Cyan      | `#00e5ff`   |
+| Elora Rainbow   | `#ffffff` *(default / animated coming soon)*
 
 ---
 
@@ -60,7 +60,7 @@
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/swarajladke/euphoria-vscode-theme.git
-cd euphoria-vscode-theme
+git clone https://github.com/swarajladke/Elora.git
+cd Elora
 npm install
 code .
