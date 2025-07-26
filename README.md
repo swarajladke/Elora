@@ -17,8 +17,13 @@
 
 ## 🎥 Demo
 
-> *GIF coming soon*  
-(*You can generate one with tools like ScreenToGif or ShareX!*)
+<p float="left">
+  <img src="./demo1.gif.jpeg" width="250" />
+  <img src="./demo2.gif.jpeg" width="250" />
+  <img src="./demo3.gif.jpeg" width="250" />
+  <img src="./demo4.gif.jpeg" width="250" />
+</p>
+
 
 ---
 
